@@ -13,19 +13,22 @@
     <title>tailwindcss documentation</title>
 </head>
 
-<body>
-    <div class=" relative w-full bg-black h-16 text-white flex items-center justify-center text-4xl font-semibold ">
+<body class="bg-[#ddd]">
+    <div
+        class=" relative w-full bg-black h-16 text-white flex items-center justify-center text-4xl font-semibold font-[auto]">
         How To Use Tailwind CSS 🤔
         <span class="absolute right-0 bottom-0 text-xs text-[#938989]">Created by Rohit Kumar </span>
     </div>
-    <div class="w-full max-w-5xl m-auto p-4">
+    <div class="w-full max-w-5xl m-auto p-4 ">
 
         <ul>
             <li class="text-2xl font-medium ">(01) <span class="underline mr-2">Create a new folder</span>📂
             </li>
             <ul class="ml-12 my-2 w-fit ">
                 <li class="font-semibold">(i) <span class="font-bold ">I'm using a VS Code editors.</span>
-                    <img src="Images/vscode-img.jpg" alt="" class="w-20">
+                    <a href="https://code.visualstudio.com/download" target="_blank"> <img src="Images/vscode-img.jpg"
+                            alt="" class="w-20"></a><span>👆<span class="text-sm text-red-500 ml-1">Click for
+                            download</span></span>
                 </li>
                 <li class="font-semibold ">(ii) <span class="font-bold">Right click the newly created folder and open
                         the VS code editors.</span> </li>
@@ -44,8 +47,6 @@
                     <img src="Images/open-powershell.PNG" alt="">
                 </span>
             </li>
-
-
         </ul>
 
         <ul>
@@ -87,7 +88,8 @@
                 </span>
             </li>
 
-            <li class="font-semibold ml-12 my-2 ">(vi) <span class="font-bold">Link in index.html folder
+            <li class="font-semibold ml-12 my-2 ">(vi) <span class="font-bold">Link style.css in index.html folder.
+                    <pre class="language-html "><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
                     <img src="Images/style.css-file-link.PNG" alt="">
                 </span>
             </li>
