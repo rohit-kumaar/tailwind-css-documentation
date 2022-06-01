@@ -1,213 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Rohit Kumar">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Rohit Kumar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="prism/prism.css">
+    <link rel="stylesheet" href="public/style.css" />
+    <link rel="stylesheet" href="prism/prism.css" />
     <script src="prism/prism.js"></script>
     <title>tailwindcss documentation</title>
-</head>
+  </head>
 
-<body class="bg-[#ddd]">
+  <body class="bg-[#ddd]">
     <div
-        class=" relative w-full bg-black h-16 text-white flex items-center justify-center text-4xl font-semibold font-[auto]">
-        How To Use Tailwind CSS 🤔
-        <span class="absolute right-0 bottom-0 text-xs text-[#938989]">Created by Rohit Kumar </span>
+      class="relative w-full bg-black h-16 text-white flex items-center justify-center text-4xl font-semibold font-[auto]"
+    >
+      How To Use Tailwind CSS 🤔
+      <span class="absolute right-0 bottom-0 text-xs text-[#938989]"
+        >Created by Rohit Kumar
+      </span>
     </div>
 
-    <div class="w-full max-w-5xl m-auto p-4 ">
-
-        <ul>
-            <li class="text-2xl font-medium ">(01) <span class="underline mr-2">Create a new folder</span>📂
-            </li>
-            <ul class="ml-12 my-2 w-fit ">
-                <li class="font-semibold">(i) <span class="font-bold ">I'm using a VS Code editors.</span>
-                    <a href="https://code.visualstudio.com/download" target="_blank"> <img src="Images/vscode-img.jpg"
-                            alt="" class="w-20"></a><span>👆<span class="text-sm text-red-500 ml-1">Click for
-                            download</span></span>
-                </li>
-                <li class="font-semibold ">(ii) <span class="font-bold">Right click the newly created folder and open
-                        the VS code editors.</span> </li>
-
-            </ul>
+    <div class="w-full max-w-5xl m-auto p-4">
+      <ul>
+        <li class="text-2xl font-medium">
+          (01) <span class="underline mr-2">Create a new folder</span>📂
+        </li>
+        <ul class="ml-12 my-2 w-fit">
+          <li class="font-semibold">
+            (i) <span class="font-bold">I'm using a VS Code editors.</span>
+            <a href="https://code.visualstudio.com/download" target="_blank">
+              <img src="Images/vscode-img.jpg" alt="" class="w-20" /></a
+            ><span
+              >👆<span class="text-sm text-red-500 ml-1"
+                >Click for download</span
+              ></span
+            >
+          </li>
+          <li class="font-semibold">
+            (ii)
+            <span class="font-bold"
+              >Right click the newly created folder and open the VS code
+              editors.</span
+            >
+          </li>
         </ul>
+      </ul>
 
-        <ul>
-            <li class="text-2xl font-medium ">(02) <span class="underline">How to installation</span></li>
-            <li class="font-semibold ml-12 my-2 ">(i) <span class="font-bold">Create index.html file.
-                    <img src="Images/index.html-file.PNG" alt="">
-                </span>
-            </li>
+      <ul>
+        <li class="text-2xl font-medium">
+          (02) <span class="underline">How to installation</span>
+        </li>
+        <li class="font-semibold ml-12 my-2">
+          (i)
+          <span class="font-bold"
+            >Create index.html file.
+            <img src="Images/index.html-file.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(ii) <span class="font-bold">Open VS code powershell.
-                    <img src="Images/open-powershell.PNG" alt="">
-                </span>
-            </li>
-        </ul>
+        <li class="font-semibold ml-12 my-2">
+          (ii)
+          <span class="font-bold"
+            >Open VS code powershell.
+            <img src="Images/open-powershell.PNG" alt="" />
+          </span>
+        </li>
+      </ul>
 
-        <ul>
-            <li class="text-2xl font-medium ">(03) <span class="underline">To setup tailwindcss run these command (
-                    Using PostCSS)</span>
-                <a href="https://tailwindcss.com/docs/installation/using-postcss" target="_blank"
-                    class="text-sm text-blue-600 hover:underline hover:text-base">For more information</a> 👈
-                click here
-            </li>
+      <ul>
+        <li class="text-2xl font-medium">
+          (03)
+          <span class="underline"
+            >To setup tailwindcss run these command ( Using PostCSS)</span
+          >
+          <a
+            href="https://tailwindcss.com/docs/installation/using-postcss"
+            target="_blank"
+            class="text-sm text-blue-600 hover:underline hover:text-base"
+            >For more information</a
+          >
+          👈 click here
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(i) <span class="font-bold">Create package.json
-                    <pre class="language-html "><code>npm init -y</code></pre>
-                    <img src="Images/npm-init-y.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (i)
+          <span class="font-bold"
+            >Create package.json
+            <pre class="language-html"><code>npm init -y</code></pre>
+            <img src="Images/npm-init-y.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(ii) <span class="font-bold">Install tailwindcss and its peer
-                    dependencies via npm,and also add vite for live reloading.
-                    <pre class="language-html "><code>npm install -D tailwindcss postcss autoprefixer vite</code></pre>
-                    <img src="Images/install-tailwindcss.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (ii)
+          <span class="font-bold"
+            >Install tailwindcss and its peer dependencies via npm,and also add
+            vite for live reloading.
+            <pre
+              class="language-html"
+            ><code>npm install -D tailwindcss postcss autoprefixer vite</code></pre>
+            <img src="Images/install-tailwindcss.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(iii) <span class="font-bold">Create your tailwind.config.js file, and
-                    add -p for postcss.config.js file.
-                    <pre class="language-html "><code>npx tailwindcss init -p</code></pre>
-                    <img src="Images/tailwindcss-init.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (iii)
+          <span class="font-bold"
+            >Create your tailwind.config.js file, and add -p for
+            postcss.config.js file.
+            <pre
+              class="language-html"
+            ><code>npx tailwindcss init -p</code></pre>
+            <img src="Images/tailwindcss-init.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(iv) <span class="font-bold">Create a style.css file.
-                    <img src="Images/style.css-file.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (iv)
+          <span class="font-bold"
+            >Create a style.css file.
+            <img src="Images/style.css-file.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(v) <span class="font-bold">Past this in style.css file.
-                    <pre
-                        class="language-html "><code>@tailwind base;@tailwind components;@tailwind utilities;</code></pre>
-                    <img src="Images/past-in-css-folder.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (v)
+          <span class="font-bold"
+            >Past this in style.css file.
+            <pre
+              class="language-html"
+            ><code>@tailwind base;@tailwind components;@tailwind utilities;</code></pre>
+            <img src="Images/past-in-css-folder.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(vi) <span class="font-bold">Link style.css in index.html folder.
-                    <pre class="language-html "><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
-                    <img src="Images/style.css-file-link.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (vi)
+          <span class="font-bold"
+            >Link style.css in index.html folder.
+            <pre
+              class="language-html"
+            ><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
+            <img src="Images/style.css-file-link.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(vii) <span class="font-bold">
-                    In your tailwind.config.js file replace content: [ ], with content: ["*"],
-                    <img src="Images/content-replace.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (vii)
+          <span class="font-bold">
+            In your tailwind.config.js file replace content: [ ], with content:
+            ["*"],
+            <img src="Images/content-replace.PNG" alt="" />
+          </span>
+        </li>
 
-
-
-            <li class="font-semibold ml-12 my-2 ">(viii) <span class="font-bold">Write a sample code inside body
-                    element.
-                    <pre class="language-html "><code>
+        <li class="font-semibold ml-12 my-2">
+          (viii)
+          <span class="font-bold"
+            >Write a sample code inside body element.
+            <pre class="language-html"><code>
                 &lt;h1 class="text-3xl font-bold underline bg-red-600"&gt;
                     Hello world!
                 &lt;/h1&gt;</code></pre>
-                    <img src="Images/sample-code.PNG" alt="">
-                </span>
-            </li>
+            <img src="Images/sample-code.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(ix) <span class="font-bold">Add "start": "vite" to your scripts in
-                    package.json
-                    <pre class="language-html "><code> "start": "vite"</code></pre>
-                    <img src="Images/package-json.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (ix)
+          <span class="font-bold"
+            >Add "start": "vite" to your scripts in package.json
+            <pre class="language-html"><code> "start": "vite"</code></pre>
+            <img src="Images/package-json.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(x) <span class="font-bold">
-                    Run npm start command to start a dev server
-                    <pre class="language-html "><code> npm start</code></pre>
-                    <img src="Images/npm-start.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (x)
+          <span class="font-bold">
+            Run npm start command to start a dev server
+            <pre class="language-html"><code> npm start</code></pre>
+            <img src="Images/npm-start.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(xi) <span class="font-bold">
-                    Install Tailwind CSS IntelliSense
-                    <img src="Images/tailwind-intelliSense.PNG" alt="">
-                </span>
-            </li>
-        </ul>
+        <li class="font-semibold ml-12 my-2">
+          (xi)
+          <span class="font-bold">
+            Install Tailwind CSS IntelliSense
+            <img src="Images/tailwind-intelliSense.PNG" alt="" />
+          </span>
+        </li>
+      </ul>
 
-        <ul>
-            <li class="text-2xl font-medium ">(04) <span class="underline mr-2">Core Concepts</span>🧾
-            </li>
+      <ul>
+        <li class="text-2xl font-medium">
+          (04) <span class="underline mr-2">Core Concepts</span>🧾
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(i) <span class="font-bold">
-                    Handling Hover<a href="https://tailwindcss.com/docs/hover-focus-and-other-states" target="_blank"
-                        class="text-sm text-blue-600 hover:underline ml-2 hover:text-base">For more information</a> 👈
-                    click here
-                    <pre
-                        class="language-html "><code>&lt;button class="bg-sky-600 hover:bg-sky-700 ..."&gt; Save changes &lt;/button&gt;</code></pre>
-                </span>
+        <li class="font-semibold ml-12 my-2">
+          (i)
+          <span class="font-bold">
+            Handling Hover<a
+              href="https://tailwindcss.com/docs/hover-focus-and-other-states"
+              target="_blank"
+              class="text-sm text-blue-600 hover:underline ml-2 hover:text-base"
+              >For more information</a
+            >
+            👈 click here
+            <pre
+              class="language-html"
+            ><code>&lt;button class="bg-sky-600 hover:bg-sky-700 ..."&gt; Save changes &lt;/button&gt;</code></pre>
+          </span>
+        </li>
 
-            </li>
-
-            <li class="font-semibold ml-12 my-2 ">(ii) <span class="font-bold">
-                    Hover, focus, and active.
-                    <pre class="language-html "><code>&lt;button 
+        <li class="font-semibold ml-12 my-2">
+          (ii)
+          <span class="font-bold">
+            Hover, focus, and active.
+            <pre class="language-html"><code>&lt;button 
 class="bg-violet-50 hover:bg-violet-400 active:bg-violet-600 
 focus:outline-none focus:ring focus:ring-violet-300 ..." &gt; Save changes &lt;/button&gt;</code></pre>
-                </span>
-            </li>
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(iii) <span class="font-bold">
-                    Responsive Design<a href="https://tailwindcss.com/docs/responsive-design" target="_blank"
-                        class="text-sm text-blue-600 hover:underline ml-2 hover:text-base">For more information</a> 👈
-                    click here
-                    <pre class="language-html "><code>&lt;img class="w-16 md:w-32 lg:w-48" src="..."&gt;</code></pre>
-                    <img src="Images/responsive.PNG" alt="">
-                </span>
-            </li>
+        <li class="font-semibold ml-12 my-2">
+          (iii)
+          <span class="font-bold">
+            Responsive Design<a
+              href="https://tailwindcss.com/docs/responsive-design"
+              target="_blank"
+              class="text-sm text-blue-600 hover:underline ml-2 hover:text-base"
+              >For more information</a
+            >
+            👈 click here
+            <pre
+              class="language-html"
+            ><code>&lt;img class="w-16 md:w-32 lg:w-48" src="..."&gt;</code></pre>
+            <img src="Images/responsive.PNG" alt="" />
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(iv) <span class="font-bold">
-                    Positioning Properties<a
-                        href="https://tailwindcss.com/docs/position#statically-positioning-elements" target="_blank"
-                        class="text-sm text-blue-600 hover:underline ml-2 hover:text-base">For more information</a> 👈
-                    click here
-                    <pre class="language-html "><code>&lt;div class="relative bg-red-600 w-full h-screen"&gt;
+        <li class="font-semibold ml-12 my-2">
+          (iv)
+          <span class="font-bold">
+            Positioning Properties<a
+              href="https://tailwindcss.com/docs/position#statically-positioning-elements"
+              target="_blank"
+              class="text-sm text-blue-600 hover:underline ml-2 hover:text-base"
+              >For more information</a
+            >
+            👈 click here
+            <pre
+              class="language-html"
+            ><code>&lt;div class="relative bg-red-600 w-full h-screen"&gt;
     &lt;div class=" absolute top-5 right-5 bottom-5 left-5 bg-green-600"&gt;
          Positioning
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                </span>
-            </li>
+          </span>
+        </li>
 
-            <li class="font-semibold ml-12 my-2 ">(v) <span class="font-bold">
-                    Display<a href="https://tailwindcss.com/docs/flex" target="_blank"
-                        class="text-sm text-blue-600 hover:underline ml-2 hover:text-base">For more information</a> 👈
-                    click here
-                    <h1 class=" ml-7 font-bold">
-                        Margin<a href="https://tailwindcss.com/docs/margin" target="_blank"
-                            class="text-sm text-blue-600 hover:underline ml-2 hover:text-base">For more information</a>
-                        👈
-                        click here
-                    </h1>
-                    <h1 class=" ml-7 font-bold">
-                        Border<a href="https://tailwindcss.com/docs/border-width" target="_blank"
-                            class="text-sm text-blue-600 hover:underline ml-2 hover:text-base">For more information</a>
-                        👈
-                        click here
-                    </h1>
-                    <h1 class=" ml-7 font-bold">
-                        Padding<a href="https://tailwindcss.com/docs/padding" target="_blank"
-                            class="text-sm text-blue-600 hover:underline ml-2 hover:text-base">For more information</a>
-                        👈
-                        click here
-                    </h1>
-                    <h1 class=" ml-7 font-bold">
-                        Background color<a href="https://tailwindcss.com/docs/background-color" target="_blank"
-                            class="text-sm text-blue-600 hover:underline ml-2 hover:text-base">For more information</a>
-                        👈
-                        click here
-                    </h1>
-                    <pre class="language-html "><code>&lt;div class="flex items-center justify-center w-full h-screen "&gt;
+        <li class="font-semibold ml-12 my-2">
+          (v)
+          <span class="font-bold">
+            Display<a
+              href="https://tailwindcss.com/docs/flex"
+              target="_blank"
+              class="text-sm text-blue-600 hover:underline ml-2 hover:text-base"
+              >For more information</a
+            >
+            👈 click here
+            <h1 class="ml-7 font-bold">
+              Margin<a
+                href="https://tailwindcss.com/docs/margin"
+                target="_blank"
+                class="text-sm text-blue-600 hover:underline ml-2 hover:text-base"
+                >For more information</a
+              >
+              👈 click here
+            </h1>
+            <h1 class="ml-7 font-bold">
+              Border<a
+                href="https://tailwindcss.com/docs/border-width"
+                target="_blank"
+                class="text-sm text-blue-600 hover:underline ml-2 hover:text-base"
+                >For more information</a
+              >
+              👈 click here
+            </h1>
+            <h1 class="ml-7 font-bold">
+              Padding<a
+                href="https://tailwindcss.com/docs/padding"
+                target="_blank"
+                class="text-sm text-blue-600 hover:underline ml-2 hover:text-base"
+                >For more information</a
+              >
+              👈 click here
+            </h1>
+            <h1 class="ml-7 font-bold">
+              Background color<a
+                href="https://tailwindcss.com/docs/background-color"
+                target="_blank"
+                class="text-sm text-blue-600 hover:underline ml-2 hover:text-base"
+                >For more information</a
+              >
+              👈 click here
+            </h1>
+            <pre
+              class="language-html"
+            ><code>&lt;div class="flex items-center justify-center w-full h-screen "&gt;
  &lt;div class="m-10 bg-amber-700 p-10"&gt;
     Margin
     &lt;div class="border-solid border-yellow-300 border-2 p-10 bg-yellow-300"&gt;
@@ -219,15 +323,9 @@ focus:outline-none focus:ring focus:ring-violet-300 ..." &gt; Save changes &lt;/
     &lt;/div&gt;
  &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                </span>
-            </li>
-        </ul>
-
-
+          </span>
+        </li>
+      </ul>
     </div>
-
-
-</body>
-
-
+  </body>
 </html>
